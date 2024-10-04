@@ -10,19 +10,23 @@
     <link rel="shortcut icon" href="resources/New Year Photo.png" type="image/x-icon">
     <!-- linking css -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- icon setup -->
+    <script src="https://kit.fontawesome.com/06d933816e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--EMMET FOR HEADER: header.header>h3.header-subheading+h1.header-title -->
-    <header class="header">
-        <h3 class="header-subheading">Happy New Year</h3>
+    <header class="main-bg-stripe">
+        <div class="header">
+            <h3 class="header-subheading">Happy New Year</h3>
         <h1 class="header-title">New Year Party Celebration</h1>
+        </div>
     </header>
-    <main>
+    <main class="main-bg-stripe">
         <!-- EMMET FOR 65% OFF SECTION: section.offer>div.offer-container>h1.offer-title>span.offer-title-color^p.offer-desc+h2.offer-subheading^div.offer-image -->
         <section class="offer">
             <div class="offer-container">
-                <h1 class="offer-title"><span class="offer-title-color">65% OFF</span></h1>
-                <p class="offer-desc">OUR HOLIDAY DEALS ARE BETTER</p>
+                <h1 class="offer-title"><span class="color-primary">65% OFF</span></h1>
+                <p class="offer-desc color-primary">OUR HOLIDAY DEALS ARE BETTER</p>
                 <h2 class="offer-subheading">ALL CATEGORIES</h2>
                 <div class="offer-image">
                     <img src="resources/New Year Photo.png" alt="new year photo" width="60%">
@@ -33,14 +37,27 @@
         <section class="midnight-container">
             <div class="midnight-container-items">
                 <h1 class="midnight-title">Welcome to midnight party</h1>
-                <p class="midnight-desc">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.</p>
-                <button>Join Now</button>
+                <p class="midnight-desc">Meet us for welcoming another year filled with joy & happiness.We promise you to have a blast at our venture.Join us by clicking below</p>
+                <button class="btn-primary"><i class="fa-solid fa-handshake-simple"></i> Join Now</button>
             </div>
             <div class="midnight-image">
                 <img src="resources/Group 70.png" alt="2024" width="80%">
             </div>
         </section>
-        
+        <!-- EMMET FOR LOCATION SECTION:section.location>p*3>span.color-primary+button.btn-primary  -->
+         <section class="location">
+            <p>
+                <span class="color-primary">Place:
+                </span>New Park Hotel
+            </p>
+            <p>
+                <span class="color-primary">Date:</span> 31 December Night 2023
+            </p>
+            <p>
+                <span class="color-primary">Time:</span>Evening 7.30 pm to 12.30 am
+            </p>
+            <button class="btn-primary">Join Now</button>
+         </section>
     </main>
 </body>
 </html>
