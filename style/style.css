@@ -65,3 +65,43 @@ header{
 .offer-image{
     margin: 30px 80px 10px;
 }
+/* 65% offer section end */
+/* midnight section start */
+.midnight-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    color: #FFFFFF;
+    margin: 50px 80px;
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1320px;
+    padding: 80px;
+}
+.midnight-container-items{
+    width: 50%;
+    text-align: left; 
+    margin: 30px 0px;
+    padding: 20px 0px;
+}
+.midnight-title{
+    margin: 20px 0px; 
+    font-size: 70px;
+    font-family: "Merriweather", serif;
+}
+.midnight-desc{
+    font-family: "Inter", sans-serif;
+}
+.midnight-container-items> button{
+    color: #FFFFFF;
+    background: none;
+    border: 0;
+    padding: 20px;
+    font-size: 30px;
+}
+.midnight-image{
+    opacity: .9;
+}
+/* midnight section end */
