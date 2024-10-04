@@ -37,7 +37,7 @@ header{
     color: #FFFFFF;
     padding-top: 200px;
     height: 340px;
-    background-image: url(../resources/Banner\ Image.png);
+    background-image: url('../resources/Banner\ Image.png');
     opacity: 9;
     background-repeat: no-repeat;
     background-size: contain;
@@ -90,7 +90,7 @@ header{
     align-items: center;
     gap: 50px;
     color: #FFFFFF;
-    background-image: url(../resources/Vectorrr.png);
+    background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0px 15px 15px 15px;
@@ -141,7 +141,7 @@ header{
     background-color: blanchedalmond; 
     border-radius: 15px;
     font-family: "Inter", sans-serif;
-    background-image: url(../resources/Group\ 96.png);
+    background-image: url('../resources/Group\ 96.png');
     background-repeat: no-repeat;
     background-position: right 120px bottom 100px ;
 }
@@ -158,3 +158,30 @@ header{
     border-radius: 50%;
 }
 /* coming soon styling end */
+/* holiday style start */
+.holiday-sale{
+    height: 700px;
+    text-align: center;
+    /* background-color: blanchedalmond;  */
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    padding: 70px;
+    background-image: url('../resources/Rectangle\ 2.png'),url('../resources/Group\ 44.png'),url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 100%,25%,30%;
+    background-position: bottom,right 200px bottom 250px,right bottom 200px;
+    opacity: 1;
+    opacity: 0.8;
+}
+.holiday-title{
+    font-size: 70px;
+    font-family: "Merriweather", serif;
+}
+.holiday-sale-desc{
+    padding: 10px 90px 150px;
+    margin-bottom: 50px;
+}
+.holiday-image-container{
+    display: flex;
+}
+/* holiday style end */
