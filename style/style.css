@@ -29,7 +29,7 @@ body{
     max-width: 1320px;
 }
 header,section{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 /* header styling start */
 header{
@@ -93,7 +93,7 @@ header{
     background-image: url(../resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 15px 15px 15px;
     /* height: 340px; */
     padding: 60px;
     /* border: 2px solid black;  */
@@ -127,4 +127,34 @@ header{
     border-radius: 15px;
     box-shadow: px px 5px 5px blanchedalmond;
 }
+.location>p{
+    padding-bottom: 10px;
+}
 /* location styling end */
+/* coming soon styling start */
+.coming-soon-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 70px 10px;
+    align-items: center; 
+    background-color: blanchedalmond; 
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    background-image: url(../resources/Group\ 96.png);
+    background-repeat: no-repeat;
+    background-position: right 120px bottom 100px ;
+}
+.soon-title{
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+}
+.year24-desc{
+    margin: 10px 0px 40px;
+}
+.soon-image{
+    border: 15px solid red;
+    padding: 20px;
+    border-radius: 50%;
+}
+/* coming soon styling end */
