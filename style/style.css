@@ -185,3 +185,26 @@ header{
     display: flex;
 }
 /* holiday style end */
+/* portfolio styling start */
+.portfolio{
+    font-family: "Inter", sans-serif;
+}
+.portfolio-container{
+    width: 70%;
+    padding: 20px 100px 20px 0px;
+    margin-bottom: 40px;
+}
+.portfolio-heading{
+    font-size: 50px;
+    margin: 15px 0px;
+    font-family: "Merriweather", serif;
+}
+.portfolio-image-display{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.portfolio-image-display> img{
+    width: 100%;
+}
+/* portfolio styling end */
