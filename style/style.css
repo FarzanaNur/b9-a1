@@ -24,7 +24,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
  
 /* body part start */
-body{
+header,main{
     margin: 50px 80px;
     max-width: 1320px;
 }
@@ -208,3 +208,89 @@ header{
     width: 100%;
 }
 /* portfolio styling end */
+/* newsletter start*/
+.newsletter{
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    padding: 20px 80px;
+}
+.newsletter-heading{
+    font-size: 50px;
+    margin: 15px 0px;
+    font-family: "Merriweather", serif;
+}
+.newsletter-desc{
+    margin: 20px 0px;
+}
+.subscribe{
+    margin: 40px 0px;
+    display: inline;
+    align-items: center;
+}
+form input[type=text] {
+    padding: 10px 30px;
+    font-size: 17px;
+    border:0;
+    width: 30%;
+    border-radius: 30px 0px 0px 30px; 
+}
+form button {
+    width: 20%;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    border-radius: 0px 30px 30px 0px;
+  }
+/* newsletter end*/
+/* footer start */
+.footer{
+    background-color: #070211;
+}
+.footer-contact{
+    color: aliceblue;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address{
+    font-size: 20px;
+    width: 30%;
+    padding-right: 40px;
+    font-family: "Inter", sans-serif;
+}
+.web-number p{
+    margin-bottom: 10px;
+}
+.fa-solid{
+    margin-right: 20px;
+}
+hr{
+    color: aliceblue;
+    margin: 0px 80px;
+}
+.social-media{
+    margin: 20px 0px;
+    text-align: center;
+}
+.social-media a img{
+    margin-right: 20px;
+}
+.footer-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 20px;
+}
+#footer-name{
+    font-size: 25px;
+}
+.footer-button{
+    margin: 0px 10px;
+    font-size: 15px;
+}
