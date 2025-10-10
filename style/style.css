@@ -364,6 +364,24 @@ hr{
     .portfolio-image-display{
         grid-template-columns: repeat(2,1fr);
     }
+    /* newsletter */
+    .newsletter{
+        padding: 20px;
+    }
+    .newsletter-heading{
+        font-size: 1.5em;
+    }
+
+   .subscribe {
+        flex-direction: column; 
+    }
+
+    .subscribe input[type=text],
+    .subscribe button {
+        width: 50%;
+        border-radius: 30px;      
+        margin: 8px 0;            
+    }
 
     /* footer */
     .footer-contact{
@@ -423,5 +441,11 @@ hr{
     .portfolio{
         width: 100%;
     }
+
+    .newsletter-heading{
+        font-size: 2em;
+    }
+
+
     
 }
