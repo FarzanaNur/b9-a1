@@ -201,6 +201,7 @@ header{
     opacity: .6;
 }
 /* holiday style end */
+
 /* portfolio styling start */
 .portfolio{
     font-family: "Inter", sans-serif;
@@ -326,6 +327,10 @@ hr{
 
 /* responsive small */
 @media  screen and (max-width:576px) {
+
+    main{
+        margin: 20px;
+    }
     /* header */
     header{
         height: 180px;
@@ -342,6 +347,24 @@ hr{
         margin: 0px 30px;
         padding: 0px 20px;
     }
+
+    /* portfolio */
+    .portfolio{
+        /* width: 100%; */
+        padding: 20px;
+        /* border:2px solid red; */
+    }
+    .portfolio-container{
+        width: 100%;
+        padding: 0px;
+    }
+    .portfolio-heading{
+        font-size: 2em;
+    }
+    .portfolio-image-display{
+        grid-template-columns: repeat(2,1fr);
+    }
+
     /* footer */
     .footer-contact{
         flex-direction: column-reverse;
@@ -394,6 +417,11 @@ hr{
         font-size: 1.5em;
         margin: 0px 30px;
         padding: 0px 20px;
+    }
+
+    /* portfolio */
+    .portfolio{
+        width: 100%;
     }
     
 }
