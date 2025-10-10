@@ -311,3 +311,46 @@ hr{
     margin: 0px 10px;
     font-size: 15px;
 }
+
+.hide{
+    display: none;
+}
+
+/* responsive small */
+@media  screen and (max-width:576px) {
+
+    /* footer */
+    .footer-contact{
+        flex-direction: column-reverse;
+        
+        justify-content: center;
+        padding: 20px;
+    }
+    .footer-contact > div{
+        width: 100%;
+    }
+    .web-number{
+        display: flex;
+        margin: 0px 20px;
+        justify-content: space-between;
+    }
+    .address{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .social-media img{
+        width: 8%;
+    }
+    .footer-footer{
+        text-align: center;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .footer-footer .btn-primary{
+        font-size: .7em;
+        padding: 10px 15px;
+    }
+    
+}
