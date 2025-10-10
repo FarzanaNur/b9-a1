@@ -348,6 +348,33 @@ hr{
         padding: 0px 20px;
     }
 
+
+    /* holiday */
+    .holiday-sale{
+        /* border:2px solid red; */
+        padding: 0px;
+        background-size: 100%;
+        background-position: bottom,left 80px bottom 350px ,right bottom 0px;
+        background-size: 100%,60%,100%;
+    }
+    .holiday-subheading{
+        font-size: .8em;
+    }
+    .holiday-title{
+        padding: 10px;
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    .holiday-sale-desc{
+        padding: 20px;
+    }
+
+    .holiday-image-container img{
+        width: 60%;
+        /* border:2px solid red */
+    }
+
     /* portfolio */
     .portfolio{
         /* width: 100%; */
@@ -435,6 +462,24 @@ hr{
         font-size: 1.5em;
         margin: 0px 30px;
         padding: 0px 20px;
+    }
+
+    /* holiday */
+    .holiday-sale{
+        /* border:2px solid red; */
+        padding: 0px;
+        background-size: 100%;
+        background-position: bottom,left 80px bottom 350px ,right bottom 0px;
+        background-size: 100%,60%,100%;
+    }
+
+    .holiday-image-container{
+        margin-bottom: 30px;
+    }
+
+    .holiday-image-container img{
+        width: 80%;
+        /* border:2px solid red */
     }
 
     /* portfolio */
