@@ -348,6 +348,23 @@ hr{
         padding: 0px 20px;
     }
 
+    /* offer-image */
+    .offer-image{
+        margin: 30px;
+    }
+
+    .offer-title{
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+    .offer-subheading{
+        font-size: 2em;
+        margin-top: 20px;
+    }
+    .offer-image img{
+        width: 100%;
+    }
+
     /* location */
     .location{
         font-size: 2em;
@@ -509,7 +526,12 @@ hr{
         padding: 0px 20px;
     }
 
-        /* coming soon */
+    /* offer */
+    .offer-image img{
+        width: 100%;
+    }
+
+    /* coming soon */
     .coming-soon-container{
         flex-direction: column;
         background-size: 25%;
